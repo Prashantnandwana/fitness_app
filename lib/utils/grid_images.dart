@@ -1,4 +1,4 @@
-import 'package:fitness/text/text_style.dart';
+
 import 'package:flutter/material.dart';
 
 class GridImages extends StatelessWidget {
@@ -27,7 +27,7 @@ class GridImages extends StatelessWidget {
       
         itemCount: myImageList.length,
         gridDelegate:
-            SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+          const  SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
         itemBuilder: (context, index) {
           return Column(mainAxisSize: MainAxisSize.min,
             children: [

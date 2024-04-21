@@ -24,9 +24,9 @@ final TextEditingController emailController = TextEditingController();
                 Text(MyText.resetcode,style: TextStyles.subtitle,),
               ],
             ),
-            SizedBox(height: 80,),
+           const   SizedBox(height: 80,),
             MyTextField(controller: emailController, text: MyText.em),
-            SizedBox(height: 80,),
+            const  SizedBox(height: 80,),
             MyButton(text: "RESET PASSWORD", color: Colors.lightGreen, onPressed: (){}),
             
           ],

@@ -4,9 +4,8 @@ import 'package:fitness/register_login/login.dart';
 import 'package:fitness/text/text_style.dart';
 import 'package:fitness/text/text_typed.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 class RegisterPage extends StatefulWidget {
-   RegisterPage({super.key});
+  const RegisterPage({super.key});
 
   @override
   State<RegisterPage> createState() => _RegisterPageState();

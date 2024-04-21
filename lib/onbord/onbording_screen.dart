@@ -40,14 +40,14 @@ class _OnbordingScreenState extends State<OnbordingScreen> {
         children: [
           GestureDetector(
             onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder:  (context) =>  RegisterPage()));
+                Navigator.push(context, MaterialPageRoute(builder:  (context) =>  const  RegisterPage()));
             },
             child: const Text("Skip")),
           SmoothPageIndicator(controller: _controller, count: 3),
           onLastPage?
        GestureDetector(
             onTap: () {
-              Navigator.push(context, MaterialPageRoute(builder:  (context) =>  RegisterPage()));
+              Navigator.push(context, MaterialPageRoute(builder:  (context) => const   RegisterPage()));
             },
             child: const Text("Done")) : GestureDetector(
             onTap: () {

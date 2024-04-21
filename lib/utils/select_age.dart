@@ -11,7 +11,7 @@ class _SelectAgeState extends State<SelectAge> {
   late FixedExtentScrollController ageController ;
   @override
   void initState() {
-    // TODO: implement initState
+ 
     super.initState();
     ageController=FixedExtentScrollController();
   }
@@ -23,7 +23,7 @@ class _SelectAgeState extends State<SelectAge> {
       itemExtent: 50, 
      perspective: 0.01,
       diameterRatio: 1.5,
-      physics: FixedExtentScrollPhysics(),
+      physics: const  FixedExtentScrollPhysics(),
       childDelegate: ListWheelChildBuilderDelegate(
         childCount: 101,
         builder: (context, index) {
