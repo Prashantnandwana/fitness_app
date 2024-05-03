@@ -46,7 +46,10 @@ class _RegisterPageState extends State<RegisterPage> {
              MyTextField(controller: passwordController, text: MyText.pw),
             const  SizedBox(height: 20,),
             
-             MyButton(text: MyText.createac,color: Colors.green,onPressed: (){},),
+             MyButton(text: MyText.createac,color: Colors.green,onPressed: (){
+              
+              
+             },),
               const  Text(MyText.orregwith),
              MyButton(text: MyText.connectwgoogle, color: Colors.grey.shade200, onPressed: (){}, icon: Icons.mail,),
            

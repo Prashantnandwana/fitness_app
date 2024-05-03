@@ -2,8 +2,10 @@ import 'package:fitness/components/my_button.dart';
 import 'package:fitness/components/my_textfield.dart';
 import 'package:fitness/register_login/forgot_password.dart';
 import 'package:fitness/screens/how_old_are_you.dart';
+import 'package:fitness/screens/level.dart';
 
 import 'package:fitness/screens/select_your_favorite.dart';
+import 'package:fitness/screens/weight.dart';
 import 'package:fitness/text/text_style.dart';
 import 'package:fitness/text/text_typed.dart';
 
@@ -56,7 +58,7 @@ final TextEditingController passwordController= TextEditingController();
               const  Text("Don't have an account?"),
               GestureDetector(
                 onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => 
-                const HowOld()
+                const DifficultyLevel()
            //     RegisterPage()
                 ,)),
                 child:  Text("Register",style: TextStyles.subtitle,))
