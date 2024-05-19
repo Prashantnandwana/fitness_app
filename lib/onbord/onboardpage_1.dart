@@ -26,7 +26,7 @@ class Onboardpage1 extends StatelessWidget {
             children: [
               Expanded(
                 flex: 2,
-                child: Image.asset("all.png"),
+                child: Image.asset("assets/all.png"),
                 ),
                const  SizedBox(height: 50,),
                 RichText(

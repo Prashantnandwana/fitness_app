@@ -1,3 +1,5 @@
+import 'package:fitness/components/my_bottom_navigation_bar.dart';
+import 'package:fitness/screens/app_setting.dart';
 import 'package:flutter/material.dart';
 
 class DifficultyLevel extends StatefulWidget {
@@ -27,12 +29,17 @@ class _DifficultyLevelState extends State<DifficultyLevel> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
 
-            GestureDetector(onTap: () => _onButtonPressed(0),
+            GestureDetector(onTap: () { _onButtonPressed(0);
+            Navigator.push(context, MaterialPageRoute(builder: (context) => 
+           AppSetting()
+           // MyBottomNavigationBar()
+            ,));},
               child: Container(
                 height: 50,
                 width: 450,
                 decoration: BoxDecoration(border: Border.all(color: Colors.grey),
-                  color: _selectedIndex == 0 ? Colors.black : Colors.white,
+                  color: _selectedIndex == 0 ? Colors
+                  .black : Colors.white,
                 ),
                 child: Center(child: Text("BEGINNER",style: TextStyle(color:_selectedIndex == 0 ? Colors.white : Colors.black, ),)),
               ),

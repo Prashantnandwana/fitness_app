@@ -1,10 +1,10 @@
 class MyText{
 static const String createaccounts = "CREATE ACCOUNTS";
-static const String pleaseeyctp    = "Please enter your credentials to proceed";
-static const String fn             = "FULL NAME";
-static const String em             = "EMAIL ADDRESS";
-static const String ph             = "PHONE";
-static const String pw             = "PASSWORD";
+static const String pleaseeyctp    = "Please enter your credentials \nto proceed";
+static const String fn             = "Full Name";
+static const String em             = "Email address";
+static const String ph             = "Phone";
+static const String pw             = "Password";
 static const String createac       = "CREATE ACCOUNT";
 static const String connectwgoogle = "CONNECT WITH GOOGLE";
 static const String connectwfb     = "CONNECT WITH FACEBOOK";

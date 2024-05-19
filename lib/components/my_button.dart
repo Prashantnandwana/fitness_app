@@ -19,9 +19,9 @@ class MyButton extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Container(
-        height: 40,
-        width: 500,
-        decoration: BoxDecoration(
+        height: 55,
+        width: 318,
+        decoration: BoxDecoration(borderRadius: BorderRadius.circular(6),
         color: color,
       ),
         child: Row(children: [
@@ -29,7 +29,7 @@ class MyButton extends StatelessWidget {
           Expanded(
             child: Row(mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                Text(text),
+                Text(text,style: TextStyle(fontFamily: "BebasNeue",fontSize: 22,fontWeight: FontWeight.w400,color: Colors.white),),
               ],
             ),
           )
